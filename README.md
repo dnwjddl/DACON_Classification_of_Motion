@@ -24,6 +24,17 @@
 - 같은 층일 때 LSTM이 GRU보다 나은 성능
 - 현재는 LSTM에 Early Stopping 만 적용했을때 가장 높은 성능을 보인다.
 <br><br>
+### 시도
+#### 모델
+- Bidirectional(LSTM) + Bidirectional(GRU)
+- CNN + Bi-LSTM
+- Bi-GRU
+- Transformer
+- FB- Prophet
+- ARIMA
+- SARIMA
+- Logistic-Reg
+#### 추가
 - 가중치 초기화 (kernel_initializer = 'he_normal')
 - C -> BN -> Dropout
 - optimizer => Nadam, RMSprop, adam
