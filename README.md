@@ -4,7 +4,8 @@
 ### 딥러닝 모델
 |File 명|설명|Log Loss값|비고|
 |-----|-------|:-----:|----|
-|[21.02.11][1] Baseline+Deep LSTM| 4개의 LSTM 층을 쌓음(deepLSTM_submission.csv)|1.739||
+|[21.02.11][1] Baseline+Deep LSTM| 1개의 LSTM 층(BASELINE)(baseline_submission.csv)|2.4148||
+|[21.02.11][1] Baseline+Deep LSTM| 4개의 LSTM 층을 쌓음(deepLSTM_submission.csv)|1.739|한개의 층보단 다층이 좋다|
 |[21.02.11][2] GRU|4개의 GRU층을 쌓음(deepGRU_submission.csv)|2.289||
 |[21.02.11][3] GRU_ES| 4개의 GRU 층 + Early Stopping 기능 추가(deepGRU_es_submission.csv)|1.8980||
 |[21.02.11][4] DeepLSTM_ES| 4개의 LSTM 층 + Early Stopping 기능 추가(deepLSTM_es_submission.csv)| 1.7265 |총 epoch 33번 진행, deeper 진행|
