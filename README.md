@@ -3,7 +3,7 @@
 <br><br>
 
 |File 명|설명|Log Loss값|비고|
-|-----|-------|-----|----|
+|-----|-------|:-----:|----|
 |[21.02.11][1] Baseline+Deep LSTM| 4개의 LSTM 층을 쌓음(deepLSTM_submission.csv)|1.739||
 |[21.02.11][2] GRU|4개의 GRU층을 쌓음(deepGRU_submission.csv)|2.289||
 |[21.02.11][3] GRU_ES| 4개의 GRU 층 + Early Stopping 기능 추가(deepGRU_es_submission.csv)|1.8980||
