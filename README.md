@@ -7,11 +7,11 @@
 |[21.02.11][1] Baseline+Deep LSTM| 4개의 LSTM 층을 쌓음(deepLSTM_submission.csv)|1.739||
 |[21.02.11][2] GRU|4개의 GRU층을 쌓음(deepGRU_submission.csv)|2.289||
 |[21.02.11][3] GRU_ES| 4개의 GRU 층 + Early Stopping 기능 추가(deepGRU_es_submission.csv)|1.8980||
-|[21.02.11][4] DeepLSTM_ES| 4개의 LSTM 층 + Early Stopping 기능 추가(deepLSTM_es_submission.csv)| **1.7265** |총 epoch 33번 진행, deeper 진행|
+|[21.02.11][4] DeepLSTM_ES| 4개의 LSTM 층 + Early Stopping 기능 추가(deepLSTM_es_submission.csv)| 1.7265 |총 epoch 33번 진행, deeper 진행|
 |[21.02.11][5] DeepLSTM_BN| 3개의 LSTM 층 + Early Stopping + BatchNormalization 추가(deepLSTM_es_bn_submission.csv)|3.392|patience = 20, epochs = 300 -> logloss:더 별로|
-|[21.02.11][6] DeepLSTM_DropOut|3개의 LSTM 층 + Early Stopping + Dropout 추가(deepLSTM_es_drop_submission.csv)|||
+|[21.02.11][6] DeepLSTM_DropOut|3개의 LSTM 층 + Early Stopping + Dropout 추가(deepLSTM_es_drop_submission.csv)|1.8322|dropout해주면 더 안 좋은 성능|
 |[21.02.11][7] RandomForest_baseline|RandomForest 사용(baseline_rf)|1.50886|다른 딥러닝들 보다 좋은 성능을 보임|
-|[21.02.11][8] GradientBoostingClassifier|GradientBoostingClassifier사용(GradientBoostingClassifier)|1.3918|RandomForest보다 나은 성능|
+|[21.02.11][8] GradientBoostingClassifier|GradientBoostingClassifier사용(GradientBoostingClassifier)|**1.3918**|RandomForest보다 나은 성능|
 
 
 - 다른 딥러닝 모델 보다 Random Forest가 좋은 성능을 보임
