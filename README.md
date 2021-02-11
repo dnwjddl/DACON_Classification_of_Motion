@@ -11,6 +11,7 @@
 |[21.02.11][4] DeepLSTM_ES| 4개의 LSTM 층 + Early Stopping 기능 추가(deepLSTM_es_submission.csv)|1.7265|총 epoch 33번 진행, deeper 진행(epochs:33) 1.879|
 |[21.02.11][5] DeepLSTM_BN| 3개의 LSTM 층 + Early Stopping + BatchNormalization 추가(deepLSTM_es_bn_submission.csv)|3.392|patience = 20, epochs = 300 -> logloss : 더 별로|
 |[21.02.11][6] DeepLSTM_DropOut|3개의 LSTM 층 + Early Stopping + Dropout 추가(deepLSTM_es_drop_submission.csv)|1.8322|Batchnormalization보단 dropout, but 안해주는 것이 나음|
+|[21.02.12][9] Bi-LSTM|biLSTM 3개의 층 + Early Stopping(bi_LSTM_submission.csv)|2.239| 더 안좋아짐 ㅇㅅㅇ|
 
 ### 머신러닝 모델
 |File 명|설명|Log Loss값|비고|
