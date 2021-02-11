@@ -9,7 +9,7 @@
 |[21.02.11][2] GRU|4개의 GRU층을 쌓음(deepGRU_submission.csv)|2.289|같은 층 LSTM이 더 나은 성능|
 |[21.02.11][3] GRU_ES| 4개의 GRU 층 + Early Stopping 기능 추가(deepGRU_es_submission.csv)|1.8980|Early Stopping이 안한 것보다 나은 성능|
 |[21.02.11][4] DeepLSTM_ES| 4개의 LSTM 층 + Early Stopping 기능 추가(deepLSTM_es_submission.csv)|1.7265|총 epoch 33번 진행, deeper 진행|
-|[21.02.11][5] DeepLSTM_BN| 3개의 LSTM 층 + Early Stopping + BatchNormalization 추가(deepLSTM_es_bn_submission.csv)|3.392|patience = 20, epochs = 300 -> logloss:더 별로|
+|[21.02.11][5] DeepLSTM_BN| 3개의 LSTM 층 + Early Stopping + BatchNormalization 추가(deepLSTM_es_bn_submission.csv)|3.392|patience = 20, epochs = 300 -> logloss : 더 별로|
 |[21.02.11][6] DeepLSTM_DropOut|3개의 LSTM 층 + Early Stopping + Dropout 추가(deepLSTM_es_drop_submission.csv)|1.8322|Batchnormalization보단 dropout, but 안해주는 것이 나음|
 
 ### 머신러닝 모델
