@@ -15,8 +15,8 @@
 |[21.02.11][6] DeepLSTM_DropOut|3개의 LSTM 층 + Early Stopping + Dropout 추가(deepLSTM_es_drop_submission.csv)|1.8322|Batchnormalization보단 dropout, but 안해주는 것이 나음|
 |[21.02.12][9] Bi-LSTM|biLSTM 3개의 층 + Early Stopping(bi_LSTM_submission.csv)|2.239| 더 안좋아짐 ㅇㅅㅇ|
 |[21.02.12][9] Bi-LSTM|biLSTM 4개의 층 + Early Stopping(bi_LSTM_submission.csv)|2.127|3개의 층 보다는 좋은데 여전히 별로임|
-|[21.02.13][10] CNN_LSTM|Conv1D(1개의 층) + LSTM(1개의 층) + Early Stopping(cnn_lstm.csv)|**1.2267**|Conv1D + LSTM이 좋은 성능을 보임|
-|[21.02.13][10] CNN_LSTM|Conv1D(2개의 층) + LSTM(1개의 층) + Early Stopping(cnn_lstm_v2.csv)|||
+|[21.02.13][10] CNN_LSTM|Conv1D(1개의 층) + LSTM(1개의 층) + Early Stopping(cnn_lstm.csv)|1.2267|Conv1D + LSTM이 좋은 성능을 보임|
+|[21.02.13][10] CNN_LSTM|Conv1D(2개의 층) + LSTM(1개의 층) + Early Stopping(cnn_lstm_v2.csv)|**1.0631**|Conv1D 두개를 쌓았을 때 더 좋은 성능|
 
 ### 머신러닝 모델
 |File 명|설명|Log Loss값|비고|
