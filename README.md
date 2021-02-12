@@ -18,7 +18,7 @@
 |[21.02.13][10] CNN_LSTM|Conv1D(1개의 층) + LSTM(1개의 층) + Early Stopping(cnn_lstm.csv)|1.2267|Conv1D + LSTM이 좋은 성능을 보임|
 |[21.02.13][10] CNN_LSTM|Conv1D(2개의 층) + LSTM(1개의 층) + Early Stopping(cnn_lstm_v2.csv)|**1.0631**|Conv1D 두개를 쌓았을 때 더 좋은 성능(early Stopping을 더 높였는데 1.084)|
 ||Conv1D(256) + Conv1D(256) + LSTM (pool size 4-> 2)|```x```||
-||Conv1D(128) + Conv1D(256) + LSTM (pool size 4)|```x```||
+|[21.02.13][11] CNN_LSTM_v2|Conv1D(128) + Conv1D(256) + LSTM (pool size 4)|```x```||
 
 ### 머신러닝 모델
 |File 명|설명|Log Loss값|비고|
