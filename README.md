@@ -17,7 +17,7 @@
 |[21.02.12][9] Bi-LSTM|biLSTM 4개의 층 + Early Stopping(bi_LSTM_submission.csv)|2.127|3개의 층 보다는 좋은데 여전히 별로임|
 |[21.02.13][10] CNN_LSTM|Conv1D(1개의 층) + LSTM(1개의 층) + Early Stopping(cnn_lstm.csv)|1.2267|Conv1D + LSTM이 좋은 성능을 보임|
 |[21.02.13][10] CNN_LSTM|Conv1D(2개의 층) + LSTM(1개의 층) + Early Stopping(cnn_lstm_v2.csv)|**1.0631**|Conv1D 두개를 쌓았을 때 더 좋은 성능(early Stopping을 더 높였는데 1.084)|
-||Conv1D(256) + Conv1D(256) + LSTM (pool size 4-> 2)|```x```||
+||Conv1D(256) + Conv1D(256) + LSTM (pool size 4-> 2)|```x```|1.1362|
 |[21.02.13][11] CNN_LSTM_v2|Conv1D(128) + Conv1D(256) + LSTM (pool size 4)|```x```||
 ||Conv1D(256) + Conv1D(256) + Conv1D(256) + LSTM|1.1742|Layer수는 총 3층 정도만 해도 되는 거 같다|
 
