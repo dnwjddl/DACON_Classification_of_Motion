@@ -27,7 +27,8 @@
 |File 명|설명|Log Loss값|비고|
 |-----|-------|:-----:|----|
 |[21.02.11][7] RandomForest_baseline|RandomForest 사용(baseline_rf)|1.50886|다른 딥러닝들 보다 좋은 성능을 보임|
-|[21.02.11][8] GradientBoostingClassifier|GradientBoostingClassifier사용(GradientBoostingClassifier)|**1.3918**|RandomForest보다 나은 성능|
+|[21.02.11][8] GradientBoostingClassifier|GradientBoostingClassifier사용(GradientBoostingClassifier)|1.3918|RandomForest보다 나은 성능|
+|[21.02.11][8] GradientBoostingClassifier|GradientBoostingClassifier에 **Cross-validation**을 통한 파라미터 값 지정|**1.1510**|파라미터 조절하니 더 좋은 성능|
 
 
 - 다른 딥러닝 모델 보다 Random Forest가 좋은 성능을 보임
