@@ -21,6 +21,7 @@
 |[21.02.13][11] CNN_LSTM_v2|Conv1D(128) + Conv1D(256) + LSTM (pool size 4)|```x```||
 ||Conv1D(256) + Conv1D(256) + Conv1D(256) + LSTM|1.1742|Layer수는 총 3층 정도만 해도 되는 거 같다|
 |[21.02.13][12] CNN_BiLSTM|Conv1D(256) + Conv1D(256) + BILSTM|**0.9926**|CNN과 Bidirectional LSTM 두개를 합쳐서 쓰니 더 좋은 성능을 보인다|
+|[21.02.13][12] CNN_BiLSTM|Conv1D(256) + BILSTM|1.102||
 
 ### 머신러닝 모델
 |File 명|설명|Log Loss값|비고|
