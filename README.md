@@ -123,3 +123,8 @@ simple_average = pd.DataFrame(preds, index=submission.index, columns=submission.
 simple_average.to_csv('15 Average Ensemble model.csv')
 simple_average.head(10)
 ```
+## 알게된 점
+- Conv1D는 input이 1차원일때(순차적 데이터)일 때, 사용할 수 있다. => CNN으로 Feature 추출 가능
+- shape([3125,600,6])인 input을 LSTM(128)에 적용하면 shape([3125, 128])이 된다.
+- 여러겹의 LSTM을 쓰고 싶다면 return_sequence를 해주어야 한다.(hidden state의 값을 가지고 와서 다음 layer에서도 사용할 수 있도록)
+    - 단, 마지막 return_sequrences 의 값은 False을 해주어야 함
