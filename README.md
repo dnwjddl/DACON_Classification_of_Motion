@@ -27,22 +27,36 @@
 ### cnn-gru
 |File 명|설명|Log Loss값|비고|
 |-----|-------|:-----:|----|
-|[21.02.13][11] CNN_GRU|CNN3 + GRU|1.0912||
+|[21.02.13][11] CNN_GRU|CNN3 + GRU1|1.0912||
+|[21.02.17][15] CNN_DeepGRU|CNN1 + GRU2|||
+|[21.02.17][15] CNN_DeepGRU|CNN1 + GRU3|||
+|[21.02.17][15] CNN_DeepGRU|CNN2 + GRU2|||
 |[21.02.13][11] CNN_GRU|CNN1 + Bi-GRU|1.2322||
 |[21.02.13][11] CNN_GRU|CNN2 + Bi-GRU|1.0514||
 |[21.02.13][11] CNN_GRU|CNN3 + Bi-GRU|1.0774||
+||CNN1 + Bi-GRU2|||
+||CNN1 + Bi-GRU3|||
+||CNN2 + Bi-GRU2|||
 
-#### cnn-lstm
+
+### cnn-lstm
 |File 명|설명|Log Loss값|비고|
 |-----|-------|:-----:|----|
-|[21.02.13][10] CNN_LSTM|CNN1 + LSTM|1.2267||
-|[21.02.13][10] CNN_LSTM|CNN2 + LSTM|1.0631||
-|[21.02.13][10] CNN_LSTM|CNN3 + LSTM|1.1742||
-|[21.02.13][12] CNN_BiLSTM|CNN1 + Bi-LSTM|1.102||
-|[21.02.13][12] CNN_BiLSTM|CNN2 + Bi-LSTM|**0.9926**||
+|[21.02.13][10] CNN_LSTM|CNN1 + LSTM1|1.2267||
+|[21.02.13][10] CNN_LSTM|CNN2 + LSTM1|1.0631||
+|[21.02.13][10] CNN_LSTM|CNN3 + LSTM1|1.1742||
+|[21.02.17][14] CNN_DeepLSTM|CNN1 + LSTM2|||
+|[21.02.17][14] CNN_DeepLSTM|CNN1 + LSTM3|||
+|[21.02.17][14] CNN_DeepLSTM|CNN2 + LSTM2|||
+|[21.02.13][12] CNN_BiLSTM|CNN1 + Bi-LSTM1|1.102||
+|[21.02.13][12] CNN_BiLSTM|CNN2 + Bi-LSTM1|**0.9926**||
+||CNN1 + Bi-LSTM2|||
+||CNN1 + Bi-LSTM3|||
+||CNN2 + Bi-LSTM2|||
 |[21.02.13][12] CNN_BiLSTM|CNN2 + Bi-LSTM  - leaky ReLU|1.0519||
 |[21.02.13][12] CNN_BiLSTM|CNN2 + Bi-LSTM  - same|1.0935||
 |[21.02.13][12] CNN_BiLSTM|CNN2 + Bi-LSTM  - rmsprop|1.0761||
+
 
 ### 머신러닝 모델
 |File 명|설명|Log Loss값|비고|
