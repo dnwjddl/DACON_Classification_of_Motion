@@ -41,6 +41,7 @@
 |[21.02.13][12] CNN_BiLSTM|CNN1 + Bi-LSTM|1.102||
 |[21.02.13][12] CNN_BiLSTM|CNN2 + Bi-LSTM|**0.9926**||
 |[21.02.13][12] CNN_BiLSTM|CNN2 + Bi-LSTM  - leaky ReLU|1.0519||
+|[21.02.13][12] CNN_BiLSTM|CNN2 + Bi-LSTM  - same|1.0935||
 
 ### 머신러닝 모델
 |File 명|설명|Log Loss값|비고|
